@@ -348,19 +348,19 @@ We need to extend the cluster to install logging,and we also need some more powe
     apiVersion: rbac.authorization.k8s.io/v1
     kind: ClusterRole
     metadata:
-    name: logging-collector-logs-writer
-    namespace: openshift-logging
+      name: logging-collector-logs-writer
+      namespace: openshift-logging
     rules:
     - apiGroups:
-    - loki.grafana.com
-    resourceNames:
-    - logs
-    resources:
-    - application
-    - audit
-    - infrastructure
-    verbs:
-    - create
+      - loki.grafana.com
+      resourceNames:
+      - logs
+      resources:
+      - application
+      - audit
+      - infrastructure
+      verbs:
+      - create
     ```
 
 -   Create cluster role named `logging-collector-logs-writer`:
