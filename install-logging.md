@@ -24,7 +24,7 @@ Log in to the console with user kubeadmin and password astwp-WUaaS-BnLF8-rU8vw
 It also supplies the `kubconfig` file if you want to use that. Here we will login via the web browser with the username and password.
 
 
-By default, cluster bot creates a cluster with 6 nodes: 3 control plane (masters), 3 workers. In the Admin perspective, navigate to `Compute` -> `NOdes`:
+By default, Cluster Bot creates a cluster with 6 nodes: 3 control plane (masters), 3 workers. In the Administrator perspective, navigate to `Compute` -> `Nodes`:
 
 ![Default cluster nodes](images/cluster-nodes-default.png)
 
