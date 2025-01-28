@@ -1,4 +1,4 @@
-# Intalling logging on ClusterBot 
+# Installing logging on ClusterBot 
 
 ## Prerequisites
 
